@@ -16,12 +16,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   (because it was already never terminating if that method wasn't used) ([#3601])
 - **added:** New `ListenerExt::limit_connections` allows limiting concurrent `axum::serve` connections ([#3489])
 - **added:** `MethodRouter::method_filter` ([#3586])
-- **added:** `WebSocketUpgrade::{requested_protocols, set_selected_protocol}` for more
-  flexible subprotocol selection ([#3597])
+- **added:** `serve::Executor` trait and `Serve::with_executor` for customizing how connection
+  tasks are spawned, enabling use cases like tracing and telemetry instrumentation ([#3704])
 - **changed:** `serve` has an additional generic argument and can now work with any response body
   type, not just `axum::body::Body` ([#3205])
-- **changed:** Update minimum rust version to 1.80 ([#3620])
 - **changed:** `Redirect` constructors now accept any `impl Into<String>` ([#3635])
+- **changed:** Updated `matchit` allowing for routes with captures and static prefixes and suffixes ([#3702])
 
 [#3158]: https://github.com/tokio-rs/axum/pull/3158
 [#3261]: https://github.com/tokio-rs/axum/pull/3261
@@ -30,8 +30,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [#3601]: https://github.com/tokio-rs/axum/pull/3601
 [#3489]: https://github.com/tokio-rs/axum/pull/3489
 [#3586]: https://github.com/tokio-rs/axum/pull/3586
+[#3635]: https://github.com/tokio-rs/axum/pull/3635
+[#3702]: https://github.com/tokio-rs/axum/pull/3702
+
+# 0.8.9
+
+- **added:** `WebSocketUpgrade::{requested_protocols, set_selected_protocol}` for more
+  flexible subprotocol selection ([#3597])
+- **changed:** Update minimum rust version to 1.80 ([#3620])
+- **fixed:** Set connect endpoint on correct field in MethodRouter ([#3656])
+- **fixed:** Return specific error message when multipart body limit is exceeded ([#3611])
+
 [#3597]: https://github.com/tokio-rs/axum/pull/3597
 [#3620]: https://github.com/tokio-rs/axum/pull/3620
+[#3656]: https://github.com/tokio-rs/axum/pull/3656
+[#3611]: https://github.com/tokio-rs/axum/pull/3611
+[#3704]: https://github.com/tokio-rs/axum/pull/3704
 
 # 0.8.8
 

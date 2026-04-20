@@ -23,11 +23,10 @@ If your project isn't listed here and you would like it to be, please feel free 
 - [axum-streams](https://github.com/abdolence/axum-streams-rs): Streaming HTTP body with different formats: JSON, CSV, Protobuf.
 - [axum-template](https://github.com/Altair-Bueno/axum-template): Layers, extractors and template engine wrappers for axum based Web MVC applications
 - [axum-template](https://github.com/janos-r/axum-template): GraphQL and REST API, SurrealDb, JWT auth, direct error handling, request logs
-- [axum-guard-logic](https://github.com/sjud/axum_guard_logic): Use AND/OR logic to extract types and check their values against `Service` inputs.
 - [axum-casbin-auth](https://github.com/casbin-rs/axum-casbin-auth): Casbin access control middleware for axum
 - [aide](https://docs.rs/aide): Code-first Open API documentation generator with [axum integration](https://docs.rs/aide/latest/aide/axum/index.html).
 - [axum-typed-routing](https://docs.rs/axum-typed-routing/latest/axum_typed_routing/): Statically typed routing macros with OpenAPI generation using aide.
-- [rovo](http://docs.rs/rovo): Doc-comment-driven OpenAPI documentation generation for Axum web applications, built on top of aide.
+- [rovo](https://docs.rs/rovo): Doc-comment-driven OpenAPI documentation generation for Axum web applications, built on top of aide.
 - [axum-jsonschema](https://docs.rs/axum-jsonschema/): A `Json<T>` extractor that does JSON schema validation of requests.
 - [axum-login](https://docs.rs/axum-login): Session-based user authentication for axum.
 - [axum-gate](https://docs.rs/axum-gate): JWT-based authentication and role-based authorization for axum (Cookie and Bearer, for monolithic and distributed applications).
@@ -54,7 +53,6 @@ If your project isn't listed here and you would like it to be, please feel free 
 - [axum-rails-cookie](https://github.com/endoze/axum-rails-cookie): Extract rails session cookies in axum based apps.
 - [axum-ws-broadcaster](https://github.com/Necoo33/axum-ws-broadcaster): A broadcasting liblary for both [axum-typed-websockets](https://crates.io/crates/axum-typed-websockets) and `axum::extract::ws`.
 - [axum-negotiate-layer](https://github.com/2ndDerivative/axum-negotiate-layer): Middleware/Layer for Kerberos/NTLM "Negotiate" authentication.
-- [axum-kit](https://github.com/4lkaid/axum-kit): Streamline the integration and usage of axum with SQLx and Redis.
 - [tower_allowed_hosts](https://crates.io/crates/tower_allowed_hosts): Allowed hosts middleware which limits request from only allowed hosts.
 - [baxe](https://github.com/zyphelabs/baxe): Simple macro for defining backend errors once and automatically generate standardized JSON error responses, saving time and reducing complexity
 - [axum-html-minifier](https://crates.io/crates/axum_html_minifier): This middleware minify the html body content of a axum response.
@@ -75,20 +73,21 @@ If your project isn't listed here and you would like it to be, please feel free 
 - [notify.run](https://github.com/notify-run/notify-run-rs): HTTP-to-WebPush relay for sending desktop/mobile notifications to yourself, written in Rust.
 - [turbo.fish](https://turbo.fish/) ([repository](https://github.com/jplatte/turbo.fish)): Find out for yourself 😉
 - [Book Management](https://github.com/lz1998/axum-book-management): CRUD system of book-management with ORM and JWT for educational purposes.
-- [realworld-axum-sqlx](https://github.com/launchbadge/realworld-axum-sqlx): A Rust implementation of the [Realworld] demo app spec using axum and [SQLx].
+- [realworld-axum-sqlx](https://github.com/launchbadge/realworld-axum-sqlx): A Rust implementation of the [Realworld](https://github.com/gothinkster/realworld) demo app spec using axum and [SQLx](https://github.com/launchbadge/sqlx).
   See https://github.com/davidpdrsn/realworld-axum-sqlx for a fork with up to date dependencies.
 - [Rustapi](https://github.com/ndelvalle/rustapi): RESTful API template using MongoDB
 - [axum-postgres-template](https://github.com/koskeller/axum-postgres-template): Production-ready axum + PostgreSQL application template
 - [RUSTfulapi](https://github.com/robatipoor/rustfulapi): Reusable template for building REST Web Services in Rust. Uses axum and SeaORM.
 - [Jotsy](https://github.com/ohsayan/jotsy): Self-hosted notes app powered by Skytable, axum and Tokio
 - [Svix](https://www.svix.com) ([repository](https://github.com/svix/svix-webhooks)): Enterprise-ready webhook service
-- [emojied](https://emojied.net) ([repository](https://github.com/sekunho/emojied)): Shorten URLs to emojis!
+- [emojied](https://github.com/sekunho/emojied): Shorten URLs to emojis!
 - [CLOMonitor](https://clomonitor.io) ([repository](https://github.com/cncf/clomonitor)): Checks open source projects repositories to verify they meet certain best practices.
 - [Pinging.net](https://www.pinging.net) ([repository](https://github.com/benhansenslc/pinging)): A new way to check and monitor your internet connection.
 - [wastebin](https://github.com/matze/wastebin): A minimalist pastebin service.
 - [sandbox_axum_observability](https://github.com/davidB/sandbox_axum_observability) A Sandbox/showcase project to experiment axum and observability (tracing, opentelemetry, jaeger, grafana tempo,...)
 - [axum_admin](https://github.com/lingdu1234/axum_admin): An admin panel built with **axum**, Sea-orm and Vue 3.
-- [rgit](https://git.inept.dev/~doyle/rgit.git/about): A blazingly fast Git repository browser, compatible with- and heavily inspired by cgit.
+- [rgit](https://github.com/w4/rgit/): A blazingly fast Git repository browser, compatible with- and heavily inspired by cgit.
+- [gitore](https://codeberg.org/kallisti5/gitore): A fork of `rgit`.
 - [Petclinic](https://github.com/danipardo/petclinic): A port of Spring Framework's Petclinic showcase project to axum
 - [axum-middleware-example](https://github.com/casbin-rs/axum-middleware-example): A authorization application using axum, Casbin and Diesel, with JWT support.
 - [circleci-hook](https://github.com/DavidS/circleci-hook): Translate CircleCI WebHooks to OpenTelemetry traces to improve your test insights. Add detail with otel-cli to capture individual commands. Use the TRACEPARENT integration to add details from your tests.
@@ -112,9 +111,6 @@ If your project isn't listed here and you would like it to be, please feel free 
 - [openapi-rs](https://github.com/baerwang/openapi-rs/tree/main/examples/axum) | This project adds a middleware layer to axum using openapi-rs, enabling automatic request validation and processing based on OpenAPI 3.1 specifications. It helps ensure that the server behavior strictly follows the OpenAPI contract.
 - [axum-rest-api-example](https://github.com/sheroz/axum-rest-api-sample): REST API Web service in Rust using axum, JSON Web Tokens (JWT), SQLx, PostgreSQL, Redis, Docker, structured error handling, and end-to-end API tests.
 - [tower-mcp](https://github.com/joshrotenberg/tower-mcp): Tower-native Model Context Protocol (MCP) implementation
-
-[Realworld]: https://github.com/gothinkster/realworld
-[SQLx]: https://github.com/launchbadge/sqlx
 
 ## Tutorials
 
